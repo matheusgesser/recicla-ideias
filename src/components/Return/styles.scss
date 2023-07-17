@@ -1,0 +1,20 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: auto;
+    text-decoration: none;
+    cursor: pointer;
+    svg {
+      width: 1.6rem;
+      fill: #fff;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+* {
+  font-size: 2rem;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+#root {
+  min-height: 100vh;
+  background: #0f0f0f;
+}
+
+div.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 20vw;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  @media screen and (max-width: 1000px) {
+    padding: 2rem 10vw;
+  }
+}
+
+img.access-button {
+  filter: hue-rotate(-70deg);
+  border-radius: 50%;
+  transform: scale(1.3);
+  & + img.pop-up {
+    opacity: 0;
+  }
+}
+
+[vp] {
+  filter: hue-rotate(-70deg);
+  & > div#gameContainer {
+    filter: hue-rotate(40deg);
+  }
+}
+
+button.vpw-header-btn-dictionary {
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,42 @@
+section.post {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
+  background: #161616;
+  border-radius: 0.3rem;
+  position: relative;
+  cursor: pointer;
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #08c237;
+    width: 70%;
+  }
+  span {
+    font-size: 1.1rem;
+    color: #fff;
+    font-style: italic;
+    opacity: 0.5;
+    position: absolute;
+    top: 2.25rem;
+    right: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+    color: #eee;
+  }
+  b {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  i {
+    font-size: 1.1rem;
+    color: #aaa;
+    font-style: italic;
+    display: block;
+  }
+  &:hover h2 {
+    text-decoration: underline;
+  }
+}
