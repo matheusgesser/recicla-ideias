@@ -5,7 +5,7 @@ export default [
     description: 'Com um rolo de papel higiênico e uma tesoura se cria um boneco que serve como um brinquedo.',
     difficulty: 'Difícil',
     link: 'XpJ5c_WJ0BI',
-    date: '2023-07-18',
+    date: '2023-07-22',
     suggestion: 'Matheus'
   },
   {
@@ -14,7 +14,7 @@ export default [
     description: 'Com cola e uma tesoura se cria um boneco que serve como um brinquedo.',
     difficulty: 'Fácil',
     link: 'qPiqttoB_gM',
-    date: '2023-07-21',
+    date: '2023-07-23',
     suggestion: 'Matheus'
   },
   {
@@ -23,7 +23,7 @@ export default [
     description: 'Reciclar uma caixinha de leite para fazer uma maletinha resistente e com um excelente acabamento.',
     difficulty: 'Médio',
     link: '6U-nEx1JJfU',
-    date: '2023-07-23',
+    date: '2023-07-24',
     suggestion: 'Matheus'
   },
   {
@@ -32,7 +32,7 @@ export default [
     description: 'Vaso autoirrigável e anti-dengue com garrafa pet, evitando água parada e, assim, a proliferação de mosquitos.',
     difficulty: 'Fácil',
     link: 'iZVYm-ghVTA',
-    date: '2023-07-24',
+    date: '2023-07-25',
     suggestion: 'Matheus'
   },
 ]
