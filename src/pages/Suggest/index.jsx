@@ -14,6 +14,8 @@ export function Suggest() {
     })}>
       <label htmlFor="name">Seu nome</label>
       <input id="name" autoComplete='off' {...register("name")} />
+      <label htmlFor="email">Seu e-mail</label>
+      <input type="email" id="email" autoComplete='off' {...register("email")} />
       <label htmlFor="link">Link do vídeo</label>
       <input type="url" id="link" autoComplete='off' {...register("url")} />
       <input type="submit" />

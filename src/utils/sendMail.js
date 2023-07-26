@@ -3,9 +3,10 @@ import { toast } from 'react-toastify';
 
 export function sendMail(data) {
   const mail = toast.loading("Enviando...")
-  if (data.name && data.url) {
+  if (data.name && data.url && data.email) {
     send("service_10ngqov", "template_yyeatlr" , {
       name: data.name,
+      email: data.email,
       link: data.url,
     }, "5N3oBIgq_8exnoMgP")
       .then(function() {
