@@ -28,6 +28,7 @@ img.access-button {
   filter: hue-rotate(-70deg);
   border-radius: 50%;
   transform: scale(1.3);
+  user-select: none;
   & + img.pop-up {
     opacity: 0;
   }

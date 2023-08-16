@@ -19,5 +19,3 @@ export function Project() {
     </main>
   )
 }
-
-// TODO botão ver/esconder legendas
